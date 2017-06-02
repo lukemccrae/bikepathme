@@ -2,9 +2,11 @@
   "name": "bikepathme",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3031/",
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "superagent": "^3.5.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.6"
